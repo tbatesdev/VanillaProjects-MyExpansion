@@ -6,16 +6,16 @@ const confirmpassword = document.getElementById('confirmpassword');
 
 // Show input error message
 function showError(input, message) {
-  const formControl = input.parentElement;
-  formControl.className = 'form-control error';
-  const small = formControl.querySelector('small');
+  const formInfo = input.parentElement;
+  formInfo.className = 'form-info error';
+  const small = formInfo.querySelector('small');
   small.innerText = message;
 }
 
 // Show success outline
 function showSuccess(input) {
-  const formControl = input.parentElement;
-  formControl.className = 'form-control success';
+  const formInfo = input.parentElement;
+  formInfo.className = 'form-info success';
 }
 
 // Check email is valid
