@@ -84,8 +84,8 @@ padding: 30px 40px;
 
 .form button {
     cursor: pointer;
-    background-color:rgb(43, 150, 192);
-    border: 2px solid rgb(43, 150, 192);
+    background-color:rgb(43, 41, 177);
+    border: 2px solid rgb(43, 41, 177);
     color: white;
     display: block;
     font-size: 16px;
@@ -93,3 +93,4 @@ padding: 30px 40px;
     margin-top: 20px;
     width: 100%;
 }
+
