@@ -19,7 +19,7 @@ body{
 .movie-container h1{
     color:rgb(235, 158, 113);
     margin-bottom: 75px;
-    text-shadow: rgb(59, 59, 59) 2px 2px;
+    text-shadow: rgb(59, 59, 59) 2px 2px 2px;
 }
 
 .movie-container{
