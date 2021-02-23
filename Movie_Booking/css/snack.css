@@ -1,3 +1,17 @@
 body{
     background-color: rgb(39, 20, 10);
 }
+
+header{
+    font-size: 100px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: darksalmon;
+    text-shadow: rgb(204, 190, 190) 2px 2px;
+}
+
+.navbar-nav .active{
+ color:rgb(39, 20, 10) ;   
+}
