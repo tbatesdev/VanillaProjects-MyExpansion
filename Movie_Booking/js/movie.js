@@ -56,8 +56,8 @@ function populateUI() {
 
 //Submit Movie booking
 
-function sumbitBooking(count,movie,total){
-  bookingSubmit.innerHTML = `YESSIR!! You have booked ${count} seats for the movie ${movie} for a total of ${total} dollars`;
+function submitBooking(){
+  alert("Your submission has been received, check your email for the receipt and confirmation")
 }
 
 // Movie select event
@@ -80,7 +80,7 @@ container.addEventListener("click", (e) => {
 });
 
 //Submit booking
-bookingSubmit.addEventListener("submit", sumbitBooking);
+bookingSubmit.addEventListener("submit", submitBooking);
 
 // Initial count and total set
 updateSelectedCount();
