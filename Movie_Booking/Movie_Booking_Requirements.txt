@@ -19,3 +19,25 @@ Requirement 6: The first pair of images and text must have the image on the righ
 Requirement 7: The page must have a footer. The footer must have a link that says "Back to top" that take the user back to the top of the page when clicked on.
 
 Requirement 8: Under the "Back to top" link, There must be a copyright with the year and company name. Next to this, there must be a "Privacy" and "Terms" link, which must both take the user back to the top of the page. 
+
+SNACKS PAGE
+#############
+Requirement 1: The page must have a nav bar with links. The links must include "Home" "Booking" "Snacks". To the left of the links, there must be a company logo name.
+
+Requirement 2: The nav bar links must have a hover feature that changes the color of the text when the user hovers the cursor over the text
+
+Requirement 3: The company logo name on the navbar must have a redirection back to the home page.
+
+Requirement 4: Under the navbar, there must be a header in very large text (suggestion 100px) that says "The Snack Bar Awaits!"
+
+Requirement 5: Under the header, there must be a carousel with 3 images
+
+Requirement 6: Under the carousel, there must be six cards (3x2).
+
+Requirement 7: 
+
+
+
+Requirement 5: The 
+BOOKING PAGE
+##############
