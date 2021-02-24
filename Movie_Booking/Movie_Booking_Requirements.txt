@@ -2,7 +2,9 @@ Summary
 #########
 This is a project for creating a movie booking website
 
-LANDING PAGE
+LANDING PAGE (Home Page)
 ##############
-Requirement 1: The page must have a nav bar with links. The links must include "Home" "Booking" "Snacks"
-Requirement 2: The page must have a 
+Requirement 1: The page must have a nav bar with links. The links must include "Home" "Booking" "Snacks". To the left of the links, there must be a company logo name.
+Requirement 2: The company logo name on the navbar must have a redirection back to the home page. 
+Requirement 3: The page must have a jumbrotron with a background image. The button must have a 
+Requirement 4: 
