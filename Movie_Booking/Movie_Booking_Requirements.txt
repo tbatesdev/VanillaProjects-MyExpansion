@@ -5,6 +5,17 @@ This is a project for creating a movie booking website
 LANDING PAGE (Home Page)
 ##############
 Requirement 1: The page must have a nav bar with links. The links must include "Home" "Booking" "Snacks". To the left of the links, there must be a company logo name.
-Requirement 2: The company logo name on the navbar must have a redirection back to the home page. 
-Requirement 3: The page must have a jumbrotron with a background image. The button must have a 
-Requirement 4: 
+
+Requirement 2: The nav bar links must have a hover feature that changes the color of the text when the user hovers the cursor over the text
+
+Requirement 3: The company logo name on the navbar must have a redirection back to the home page.
+
+Requirement 4: The page must have a jumbotron with a background image. The button must have text that says "Book a Movie!"
+
+Requirement 5: Under the jumbotron, there must be a there must be three images (500x500) with text next to the image. The text must have a sentence, then another sentence after in a darker shade. Under both sentences, there must be smaller text in paragraph form. The paragraph text must be the same color as the text in the first sentence. 
+
+Requirement 6: The first pair of images and text must have the image on the right of the page and the text on the left. The second pair must have the image on the left and the text on the right. The third pair must have the image on the right and the text on the left. 
+
+Requirement 7: The page must have a footer. The footer must have a link that says "Back to top" that take the user back to the top of the page when clicked on.
+
+Requirement 8: Under the "Back to top" link, There must be a copyright with the year and company name. Next to this, there must be a "Privacy" and "Terms" link, which must both take the user back to the top of the page. 
