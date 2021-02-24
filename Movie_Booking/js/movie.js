@@ -3,7 +3,12 @@ const seats = document.querySelectorAll(".row .seat:not(.occupied)");
 const count = document.getElementById("count");
 const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
-const book = document.getElmentById("booking")
+
+//Submit Button Items
+const movie = document.getElementById("selectedmovie");
+const bookingSubmit = document.getElementById("booking");
+
+
 
 
 populateUI();
@@ -51,8 +56,8 @@ function populateUI() {
 
 //Submit Movie booking
 
-function sumbitBooking(e){
-  book.innerHTML = `YESSIR!! You have booked ${}`
+function sumbitBooking(count,movie,total){
+  bookingSubmit.innerHTML = `YESSIR!! You have booked ${count} seats for the movie ${movie} for a total of ${total} dollars`;
 }
 
 // Movie select event
@@ -73,6 +78,9 @@ container.addEventListener("click", (e) => {
     updateSelectedCount();
   }
 });
+
+//Submit booking
+bookingSubmit.addEventListener("submit", sumbitBooking);
 
 // Initial count and total set
 updateSelectedCount();
