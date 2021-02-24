@@ -3,6 +3,8 @@ const seats = document.querySelectorAll(".row .seat:not(.occupied)");
 const count = document.getElementById("count");
 const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
+const book = document.getElmentById("booking")
+
 
 populateUI();
 
@@ -45,6 +47,12 @@ function populateUI() {
   if (selectedMovieIndex !== null) {
     movieSelect.selectedIndex = selectedMovieIndex;
   }
+}
+
+//Submit Movie booking
+
+function sumbitBooking(e){
+  book.innerHTML = `YESSIR!! You have booked ${}`
 }
 
 // Movie select event
