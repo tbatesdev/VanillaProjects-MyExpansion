@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeTube</title>
+    <title>MusicTube</title>
 </head>
 <body>
+    <header>
+        Welcome to MeTube
+    </header>
     
+    <button>Pop</button>
+    <button>Hip-Hop</button>
+    <button>Rock</button>
+    <button>R&B</button>
+
+    <video 
+    src="videos/outkast.mp4"
+    id="video"
+    class="screen"
+    poster="img/R&B.jpg"
+    ></video>
+    
+    <div class="controls">
+        <button class="btn" id="play">
+          <i class="fa fa-play fa-2x"></i>
+        </button>
+        <button class="btn" id="stop">
+          <i class="fa fa-stop fa-2x"></i>
+        </button>
+        <input
+          type="range"
+          id="progress"
+          class="progress"
+          min="0"
+          max="100"
+          step="0.1"
+          value="0"
+        />
+        <span class="timestamp" id="timestamp">00:00</span>
+      </div>
+
 </body>
 </html>
