@@ -152,11 +152,17 @@ margin: 40px
 }
 
 .suggestions{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px
+    padding: 0px */
+    /* flex-direction: row;
+font-size: 30px;
+margin-bottom: 20px;
+padding: 30px 30px 30px 30px;
+border-radius: 40px;
+width: 200px; */
 }
 
 .card-body {
